@@ -22,11 +22,6 @@ const countDown = () => {
     $HOURS.innerText = `${hoursLeft}`
     $MINUTES.innerText = `${minutesLeft}`
     $SECONDS.innerText = `${secondsLeft}`
-    console.log($DAYS)
-    console.log(`Days:${daysLeft}`)
-    console.log(`Hours:${hoursLeft}`)
-    console.log(`Minutes:${minutesLeft}`)
-    console.log(`Seconds:${secondsLeft}`)
 }
 
 setInterval(countDown,1000)
