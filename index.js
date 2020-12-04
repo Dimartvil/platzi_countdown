@@ -1,7 +1,7 @@
 
 const countDown = () => {
     const TODAY = new Date();
-    const HOLLIDAYS = new Date ("December 25, 2020")
+    const HOLLIDAYS = new Date ("July 2, 2021")
     const secondsDay = 86400
     const secondsHour = 3600
     const secondsMinute = 60
@@ -23,5 +23,5 @@ const countDown = () => {
     $MINUTES.innerText = `${minutesLeft}`
     $SECONDS.innerText = `${secondsLeft}`
 }
-
+countDown()
 setInterval(countDown,1000)
